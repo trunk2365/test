@@ -1,0 +1,25 @@
+p {
+    color: blue;
+  }
+  
+/* Pour les smartphone */
+  @media (min-width: 641px) {
+    p {
+      color: green;
+    }
+  }
+  
+/* Pour les ordinateurs */
+  @media (min-width: 1920px) {
+    p {
+      color: red;
+    }
+  }
+
+/* pour les tablettes */
+
+  @media (min-width: 1024px) {
+    p {
+        color: blueviolet;
+    }
+  }

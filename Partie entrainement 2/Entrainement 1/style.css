@@ -1,0 +1,95 @@
+.titre-centre {
+    text-align: center;
+}
+
+.couleurrouge {
+    color: red;
+}
+
+.couleurvert {
+    color: green;
+}
+
+.couleurorange {
+    background-color: orange;
+}
+
+.texte-arial {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+#pbleu {
+    background-color: aqua;
+}
+
+#pjaune {
+    background-color: yellow;
+}
+
+#pmargeext {
+    margin: 40px;
+}
+
+#pmargeint {
+    padding: 40px;
+}
+
+#voiturefond {
+    background-image: url("https://images.caradisiac.com/images/1/0/3/8/161038/S8-sebastien-loeb-a-rachete-et-va-refaire-courir-la-208t16-piles-peak-521821.jpg");
+}
+
+
+/* Le tableau  */
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tbody {
+    text-align: left;
+}
+
+thead, tfoot {
+    text-align: center;
+}
+  
+caption {
+    padding: 50%;
+}
+
+
+
+
+
+
+/* pour les flexbox ici */
+
+.container {
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+  
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+  
+.red {
+    background-color: red;
+  }
+  
+.blue {
+    background-color: blue;
+  }
+  
+.green {
+    background-color: green;
+  }
+
+
+
+  /* Le tableau 2 pour test */
+
+ 

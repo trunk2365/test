@@ -1,0 +1,49 @@
+.container {
+    display: grid;
+    max-width: 50%;
+    text-align: center;
+}
+
+.container2 {
+    display: grid;
+    max-width: 50%;
+    text-align: center;  
+}
+
+.boxmenu {
+    grid-row: 1 / span 2;
+    border-style: solid; color: black; border-width: 1px;
+}
+
+.boxh {
+    border-style: solid; color: black; border-width: 1px;
+}
+
+.box2{
+    border-style: solid; color: black; border-width: 1px;
+}
+
+.boxf{
+    border-style: solid; color: black; border-width: 1px;
+    grid-column: 2 / span 2;
+}
+
+
+/* Pour les smartphone */
+@media (min-width: 640px) {
+    .boxf{
+        grid-column: 1 / span 1;
+    }
+    .container {
+        display: grid;
+        max-width: 20%;
+        text-align: center;
+    }
+    
+    .container2 {
+        display: grid;
+        max-width: 20%;
+        text-align: center;  
+    }
+    
+}

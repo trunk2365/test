@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Partie entrainement 2/Entrainement 1/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+    
+    .form-group {
+  display: flex;
+  align-items: right;
+  padding: 3px;
+} 
+    
+    label {
+    padding: 5px;
+  }
+
+
+
+    </style>
+
+      
+    
+    <form method="post" action="index.html">
+    <fieldset>
+        <legend>Votre identité</legend>
+        <ol>
+            <div class="form-group">
+                <li><label for="nom">Nom :</label></li>
+                <input type="text" id="nom" name="nom" placeholder="Nom">
+            </div>
+            <div class="form-group">
+                <li><label for="Prénom">Prénom :</label></li>
+                <input type="text" id="Prénom" name="Prénom" placeholder="Prénom">
+            </div>
+            <div class="form-group">
+                <li><label for="Adresse mail">Adresse mail :</label></li>
+                <input type="email" id="Adresse mail" name="Adresse mail" placeholder="Email">
+            </div> 
+        </ol>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Adresse de livraison</legend>
+        <ol>
+            <div class="form-group">
+                <li><label for="Adresse">Adresse :</label></li>
+                <textarea rows="5" id="Adresse" name="Adresse" maxlength="120" cols="20"></textarea>
+            </div>
+            <div class="form-group">
+                <li><label for="Code postal">Code postal :</label></li>
+                <input type="text" id="Code postal" name="Code postal" placeholder="Code postal">
+            </div>
+            <div class="form-group">
+                <li><label for="Ville">Ville :</label></li>
+                <input type="text" id="Ville" name="Ville" placeholder="Ville">
+            </div>
+        </ol>
+    </fieldset>
+
+    <fieldset>
+        <legend>Information de réglement</legend>
+        <ol>
+            <li>Type de carte :</li>
+                <div class="form-group">
+                    <input type="radio" id="visa" name="Typecarte">
+                    <label for="visa">Visa</label>
+                </div>
+            <div class="form-group">
+                <input type="radio" id="mastercard" name="Typecarte">
+                <label for="mastercard">Mastercard</label>
+            </div>
+        <br>
+            <div class="form-group">
+                <li><label for="numerocarte">Numéro de carte :</label></li>
+                <input type="text" id="numerocarte">
+            </div>
+            <div class="form-group">
+                <li><label for="codesecurite">Code de sécurité :</label></li>
+                <input type="password" id="codesecurite">
+            </div>
+            <div class="form-group">
+                <li><label for="nomtitulaire">Nom du titulaire :</label></li>
+                <input type="text" id="nomtitulaire">
+            </div>
+        </ol>
+    </fieldset>
+
+    <button>J'achète !</button>
+
+        
+
+
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.green{
+    background-color: green;
+    height: 40px;
+    width: 75%;
+}
+.blue{
+    background-color: blue;
+    height: 40px;
+    width: 25%;
+}
+.red{
+    background-color: red;
+    height: 160px;
+    width: 35%;
+    display: flex;
+}
+
+.subcontainer{
+    height: 160px;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.orange{
+    background-color: orange;
+    height: 80px;
+    width: 50%;
+}
+.gray{
+    background-color: gray;
+    height: 80px;
+    width: 50%;
+}
+.yellow{
+    background-color: yellow;
+    height: 80px;
+    width: 33%;
+}
+.pink{
+    background-color: pink;
+    height: 80px;
+    width: 33%;
+}
+.purple{
+    background-color: purple;
+    height: 80px;
+    width: 34%;
+}
+
+.cyan{
+    background-color: cyan;
+    height: 160px;
+    width: 100%;
+}
